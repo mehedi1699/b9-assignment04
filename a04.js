@@ -1,3 +1,8 @@
+/**
+ *1st pblm solve function 
+ pblm solve from B9-a-04 pdf file whice is added with git hub
+ *   */ 
+
 function calculateMoney(ticketSale) {
     if (ticketSale >= 0) {
         const totalMoney = (ticketSale * 120) - (500 + (8 * 50));
@@ -10,7 +15,7 @@ function calculateMoney(ticketSale) {
 }
 
 
-
+// 2nd pblm solve function 
 
 function checkName(name) {
     if (typeof name === 'string') {
@@ -31,7 +36,7 @@ function checkName(name) {
 
 
 
-
+//3rd pblm solve function 
 
 function deleteInvalids(arr) {
     const onlyNumber = [];
@@ -49,7 +54,7 @@ function deleteInvalids(arr) {
 }
 
 
-
+//4th pblm solve function 
 
 function password(obj) {
 
@@ -70,7 +75,7 @@ function password(obj) {
 }
 
 
-
+// 5th pblm solve function 
 
 function monthlySavings(arr, livingCost) {
     if (Array.isArray(arr) && typeof livingCost === 'number') {
